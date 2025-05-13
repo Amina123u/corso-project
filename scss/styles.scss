@@ -8,14 +8,17 @@
     url("../images/header-background.jpg") center center no-repeat;
   background-size: cover;
 }
+
 .header .slide {
   width: 70%;
   margin: 0 auto;
 }
+
 .navbar {
   transition: all 0.5s ease-in-out;
 }
-.inviation-bg {
+
+.invitation-bg {
   background: linear-gradient(
       to bottom right,
       rgba(0, 0, 0, 0.8),
@@ -34,18 +37,27 @@
     height: 800px !important;
     min-height: 800px !important;
   }
-  .header.text-container p {
+
+  .header .slide {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .header .text-container p {
     width: 100% !important;
     font-size: 16px;
   }
-  .register h2 {
-    text-align: center;
-  }
+
   .register {
     padding: 40px 0 !important;
   }
+
+  .register h2 {
+    text-align: center;
+  }
+
   .summary {
     margin-top: 0 !important;
-    width: 90px !important;
+    width: 90% !important;
   }
 }

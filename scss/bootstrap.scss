@@ -1,11 +1,12 @@
 // Font
-$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-sans-serif: 'Montserrat', sans-serif;
 
-// color
+// Colors
 $primary: #f8b547;
 $secondary: #35353a;
-$light: #fbf9fa;
+$light: #fbf9f5;
 $body-bg: $light;
+
 // Spacing
 $spacer: 1rem !default;
 $spacers: (
@@ -46,4 +47,4 @@ $navbar-toggler-border-radius: 5px;
 
 $headings-font-weight: bold;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import '../node_modules/bootstrap/scss/bootstrap';
